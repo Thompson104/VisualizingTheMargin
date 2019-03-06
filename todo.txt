@@ -1,0 +1,4 @@
+--- TODO ---
+1. Bagging mainly decrease variance, so it obviously performs bad when using very small decision trees which already have low variance (and also bad bias). Run experiment for larger trees. 
+2. Gradient Boosting performs unexpectedly poorly, after a few trees nothing changes (maybe there is implementation error?). During initial experimentation on an unbalanced dataset (not visible in repository) Gradient Boosting outperformed AdaBoost. Not sure what to think of all this, typically Gradient Boosting outperforms AdaBoost quite significantly (maybe smaller step-size would do the job?). It might be that the small dataset is just weird.
+3. Run experiment on real data set, maybe do visualization on PCA projection to two dimension or T-SNE projection to 2d? 
